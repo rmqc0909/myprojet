@@ -1,23 +1,23 @@
 /**
  * 
  */
-package cn.tk.study.strategy;
+package cn.tk.study.strategy1;
 
 /**
 
- * @ClassName: Quack
+ * @ClassName: MuteQuack
 
  * @Description: TODO
 
  * @author xiedan11
 
- * @date 2016年6月6日 下午1:55:16
+ * @date 2016年6月6日 下午1:56:00
 
  *
 
 
  */
-public class Quack implements QuackBehavior {
+public class MuteQuack implements QuackBehavior {
 
 	/* (non-Javadoc)
 	 * @see cn.tk.study.inter.QuackBehavior#quack()
@@ -25,7 +25,7 @@ public class Quack implements QuackBehavior {
 	@Override
 	public void quack() {
 		// TODO Auto-generated method stub
-		System.out.println("Quack!!!");
+		System.out.println("Silence!!!");
 	}
 
 }

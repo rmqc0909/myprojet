@@ -1,7 +1,7 @@
 /**
  * 
  */
-package cn.tk.study.strategy;
+package cn.tk.study.strategy1;
 
 /**
 
