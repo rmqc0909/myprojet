@@ -1,6 +1,3 @@
-/**
- * 
- */
 package cn.tk.study.encry;
 
 import java.security.MessageDigest;
