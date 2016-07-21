@@ -23,10 +23,10 @@ package cn.tk.study.xor;
 public class XOR {
 	public static void main(String[] args) 
 	{
-		XOR xor = new XOR();
 		/**
 		 * 交换两个数
 		 */
+		XOR xor = new XOR();
 		byte a = 5;
 		byte b = 10;
 		a = (byte) (a^b);

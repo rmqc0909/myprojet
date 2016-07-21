@@ -27,6 +27,11 @@ public static void main(String[] args) {
 	System.out.println("s0=s1" + s1==s2);
 	System.out.println("s0=s1" + s0==s2);
 	
+	
+	System.out.println("转换后的16进制对应的10进制数为：：" + Integer.valueOf("24924925",16).toString());
+	System.out.println("转换后的16进制对应的10进制数为111：：" + Integer.valueOf("12",16).toString());
+	
+	
 	String ss0 = "kiill";
 	String ss1 = "kiill";
 	String ss2 = "kii" + "ll";
