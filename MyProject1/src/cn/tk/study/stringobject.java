@@ -3,6 +3,8 @@
  */
 package cn.tk.study;
 
+import java.io.UnsupportedEncodingException;
+
 /**
 
  * @ClassName: stringobject
@@ -17,27 +19,60 @@ package cn.tk.study;
 
 
  */
-public class stringobject {
 
+class Dog 
+{
+	String name;
+	String says;
+
+	public Dog(String name, String says)
+	{
+		this.name = name;
+		this.says = says;
+	}
+
+	/**
+	 * 
+	 */
+	public Dog() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}
+public class stringobject {
+	
 public static void main(String[] args) {
-	String s0 = "kill";
-	String s1 = new String("kill");
-	String s2 = "ki" + new String("ll");
-	System.out.println("s0=s1" + s0==s1);
-	System.out.println("s0=s1" + s1==s2);
-	System.out.println("s0=s1" + s0==s2);
+	   String a = "101";
+	   String b = "1101";
+	   String[] arr1 = new String[a.length()];
+	   String[] arr2 = new String[b.length()];
+	   for(int i = 0; i < arr1.length; i++)
+	   {
+		   arr1[i] = a.substring(i, i+1);
+	   }
+	   
+	   for(int i = 0; i < arr2.length; i++)
+	   {
+		   arr2[i] = b.substring(i, i+1);
+	   }
+	   for(String x: arr1)
+	   {
+		   System.out.println("数组1中的元素值：：" + x);
+	   }
+	   for(String x: arr2)
+	   {
+		   System.out.println("数组2中的元素值：：" + x);
+	   }
+		   
+	   for(int i = 0; i < b.length(); i++)  
+	   {
+		  
+	   }
+	        
 	
 	
-	System.out.println("转换后的16进制对应的10进制数为：：" + Integer.valueOf("24924925",16).toString());
-	System.out.println("转换后的16进制对应的10进制数为111：：" + Integer.valueOf("12",16).toString());
 	
 	
-	String ss0 = "kiill";
-	String ss1 = "kiill";
-	String ss2 = "kii" + "ll";
-	System.out.println("ss0=ss1" + ss0==ss1);
-	System.out.println("ss0=ss1" + ss1==ss2);
-	System.out.println("ss0=ss1" + ss0==ss2);
 }
 
 }

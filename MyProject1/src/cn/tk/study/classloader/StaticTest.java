@@ -45,6 +45,8 @@ package cn.tk.study.classloader;
  */
 public class StaticTest {
 
+	static String i = "14";
+	String j = "30";
 	public static void main(String[] args)
     {
         staticFunction();
