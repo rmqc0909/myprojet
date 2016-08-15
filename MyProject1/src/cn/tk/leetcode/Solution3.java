@@ -21,14 +21,47 @@ package cn.tk.leetcode;
  */
 public class Solution3 {
     public static void main(String args[]){
-        int [] prices = {1, 6, 4, 3, 1};
-        int maxProfit = maxProfit(prices);
-        int maxProfit1 = maxProfit1(prices);
+        int [] params = {-1, 6, 4, 1, 1, 2, 5};
+        int maxProfit = maxProfit(params);
+        int maxProfit1 = maxProfit1(params);
+        int robsum = rob(params);
         System.out.println("maxProfit:::" + maxProfit);
         System.out.println("maxProfit1:::" + maxProfit1);
+        System.out.println("robsum:::" + robsum);
     }
 
     /**
+	*You are a professional robber planning to rob houses along a street. 
+	*Each house has a certain amount of money stashed, 
+	*the only constraint stopping you from robbing each of them is that adjacent houses have security system connected 
+	*and it will automatically contact the police if two adjacent houses were broken into on the same night.
+	*Given a list of non-negative integers representing the amount of money of each house, 
+	*determine the maximum amount of money you can rob tonight without alerting the police.
+	* @param params
+	* @return
+	
+	*/
+	private static int rob(int[] params) {
+		for(int x : params) {
+			System.out.println("x的值：：：" + x);
+			if(x < 0) {
+				return -1;	
+			}
+		}
+		int sum1 = 0;
+		int sum2 = 0;
+		for(int i = 0; i < params.length; i++) {
+			if(i % 2 == 1) {
+				sum1 = sum1 + params[i];
+			}
+			else {
+				sum2 = sum2 + params[i];
+			}
+		}
+		return (sum1 > sum2 ? sum1 : sum2);
+	}
+
+	/**
      * 时间复杂度: O(n)   空间复杂度: O(1)
      * @param prices
      * @return
