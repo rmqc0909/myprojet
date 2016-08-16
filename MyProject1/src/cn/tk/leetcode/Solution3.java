@@ -25,12 +25,38 @@ public class Solution3 {
         int maxProfit = maxProfit(params);
         int maxProfit1 = maxProfit1(params);
         int robsum = rob(params);
+        int leftCount = removeElement(params, 1);
         System.out.println("maxProfit:::" + maxProfit);
         System.out.println("maxProfit1:::" + maxProfit1);
         System.out.println("robsum:::" + robsum);
+        System.out.println("leftCount:::" + leftCount);
     }
 
     /**
+	*Given an array and a value, remove all instances of that value in place and return the new length.
+	*Do not allocate extra space for another array, you must do this in place with constant memory.
+	*The order of elements can be changed. It doesn't matter what you leave beyond the new length.
+
+	*Example:
+	*Given input array nums = [3,2,2,3], val = 3
+	*Your function should return length = 2, with the first two elements of nums being 2.
+	* @param params
+	* @param val
+	* @return
+	
+	*/
+	private static int removeElement(int[] params, int val) {
+		int i = 0;
+		for(int j = 0; j < params.length; j++) {
+			if(params[j] != val) {
+				params[i] = params[j];
+				i++;
+			}
+		}
+		return i;
+	}
+
+	/**
 	*You are a professional robber planning to rob houses along a street. 
 	*Each house has a certain amount of money stashed, 
 	*the only constraint stopping you from robbing each of them is that adjacent houses have security system connected 
