@@ -7,7 +7,7 @@ package cn.tk.study.strategy1;
 
  * @ClassName: Quack
 
- * @Description: TODO
+ * @Description:
 
  * @author xiedan11
 
@@ -22,9 +22,7 @@ public class Quack implements QuackBehavior {
 	/* (non-Javadoc)
 	 * @see cn.tk.study.inter.QuackBehavior#quack()
 	 */
-	@Override
 	public void quack() {
-		// TODO Auto-generated method stub
 		System.out.println("Quack!!!");
 	}
 
