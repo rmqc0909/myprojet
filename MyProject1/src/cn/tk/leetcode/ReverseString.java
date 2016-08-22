@@ -16,31 +16,19 @@ package cn.tk.leetcode;
 public class ReverseString {
 
 	public static void main(String[] args) {
-		ReverseString reverseString = new ReverseString();
-		reverseString.reverse("hell0!");
+		String reverseString = reverse("hell0!");
+		System.out.println("reverseString: " + reverseString);
 	}
 	
-	public String reverse(String str)
+	public static String reverse(String s)
 	{
-		System.out.println("反转前的字符串值：：" + str);
-		int length = str.length();
-		byte[] arr1 = str.getBytes();
-		byte[] arr2 = new byte[length];
-		System.out.println("数字中的长度:" + length);
-		for(byte x: arr1)
+		byte[] arr1 = s.getBytes();
+		byte[] arr2 = new byte[s.length()];
+		for(int i = 0; i < s.length(); i++)
 		{
-			System.out.println("数组1中的元素值：：" + x);
-		}
-		for(int i = 0; i < length; i++)
-		{
-			arr2[length -1 - i] = arr1[i];
-		}
-		for(byte x: arr2)
-		{
-			System.out.println("数组2中的元素值：：" + x);
+			arr2[s.length() -1 - i] = arr1[i];
 		}
 		String res = new String(arr2);
-		System.out.println("反转后的字符串值：：" + res);
 		return res;
 	}
 }
