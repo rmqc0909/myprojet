@@ -29,24 +29,23 @@ public class LongestSubstringWithoutRepeatingCharacters {
 	
 	 */
 	public static void main(String[] args) {
-		int lengthOfLongestSubstring = lengthOfLongestSubstring("abdds");
+		int lengthOfLongestSubstring = lengthOfLongestSubstring("a");
 		System.out.println("lengthOfLongestSubstring: " + lengthOfLongestSubstring);
 	}
 	public static int lengthOfLongestSubstring(String s) {
+		if(s.length() == 1) return 1;
         int maxLength = 0;
-        Set repeatCharacter_hashset = new HashSet();
-        for(int i = 0; i < s.length(); i++) {
+        for(int i = 0; i < s.length() - 1; i++) {
+			Set repeatCharacter_hashset = new HashSet();
         	repeatCharacter_hashset.add(s.charAt(i));
-        	for(int j = i + 1; j < s.length(); j++) {
-        		while(!repeatCharacter_hashset.contains(s.charAt(j))) {
-        			repeatCharacter_hashset.add(s.charAt(j));
-        		}
-        		break;
-        	}
+			int j = i + 1;
+			while (j < s.length() && !repeatCharacter_hashset.contains(s.charAt(j))) {
+				repeatCharacter_hashset.add(s.charAt(j));
+				j++;
+			}
         	if(repeatCharacter_hashset.size() > maxLength) 
         		maxLength = repeatCharacter_hashset.size();
         }
-        
         return maxLength;
         
         
