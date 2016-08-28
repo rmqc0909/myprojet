@@ -54,7 +54,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
 		HashMap<Character, Integer> hashMap = new HashMap<Character, Integer>();
 		for(int i = 0; i < s.length(); i++) {
 			if(hashMap.containsKey(s.charAt(i))) {
-				j = Math.max(j, hashMap.get(s.charAt(i)) + 1);
+				j = Math.max(j, hashMap.get(s.charAt(i)) + 1);		//确保从j开始没有重复的元素
 			}
 			hashMap.put(s.charAt(i), i);
 			maxLength = Math.max(maxLength, i - j + 1);
