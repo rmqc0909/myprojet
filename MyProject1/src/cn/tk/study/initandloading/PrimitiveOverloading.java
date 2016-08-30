@@ -1,4 +1,4 @@
-package cn.tk.study.overload;
+package cn.tk.study.initandloading;
 
 /**
  * 
@@ -6,6 +6,7 @@ package cn.tk.study.overload;
 * @ClassName: PrimitiveOverloading
 
 * @Description: 
+* 字符型
 * char: 2个字节	
 * 整型
 * byte: 1个字节	 
