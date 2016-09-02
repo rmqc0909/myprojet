@@ -19,6 +19,7 @@ public class CommonCode {
 
 	public static void main(String[] args) throws UnsupportedEncodingException {
 		System.out.println("utf-8编码所占字节数: " + "哈哈".getBytes("utf-8").length);
+		System.out.println("utf-16编码所占字节数: " + "哈哈".getBytes("utf-16").length);
 		System.out.println("GBK编码所占字节数: " + "哈哈".getBytes("GBK").length);
 		System.out.println("GB2312编码所占字节数: " + "哈哈".getBytes("GB2312").length);
 		System.out.println("ISO8859-1编码所占字节数: " + "哈哈".getBytes("ISO8859-1").length);
