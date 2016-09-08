@@ -3,6 +3,8 @@ package cn.tk.study;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+
+import cn.tk.study.xor.XOR;
 /**
  * 
 
@@ -33,8 +35,8 @@ public class RemoveElement {
 	}
 	public static void main(String[] args) 
 	{
-		 RemoveElement removeElement = new RemoveElement();
-		 removeElement.screenBlackNameList();
+		RemoveElement removeElement = new RemoveElement();
+		removeElement.screenBlackNameList();
 	}
 	
 	private void screenBlackNameList()
