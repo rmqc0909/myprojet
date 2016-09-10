@@ -1,6 +1,7 @@
 package cn.tk.study;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 /**
@@ -33,8 +34,14 @@ public class RemoveElement {
 	}
 	public static void main(String[] args) 
 	{
-		 RemoveElement removeElement = new RemoveElement();
-		 removeElement.screenBlackNameList();
+		byte a[] = {1, 2, 4, 3, 2, 4, 7, 2};
+		System.out.println((byte)(-1) >>> 1);
+		System.out.println(Integer.signum(-1));
+		System.out.println((byte)(-1) >> 1);
+		int b = Arrays.binarySearch(a, (byte)2);
+		System.out.println(b);
+		//RemoveElement removeElement = new RemoveElement();
+		//removeElement.screenBlackNameList();
 	}
 	
 	private void screenBlackNameList()

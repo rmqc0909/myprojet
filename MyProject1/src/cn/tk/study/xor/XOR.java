@@ -1,7 +1,7 @@
 package cn.tk.study.xor;
 
 /**
- * 
+ *
 
 * @ClassName: XOR
 
@@ -18,7 +18,9 @@ package cn.tk.study.xor;
 *1）0^0=0,0^1=1; 0异或任何数=任何数
 *2）1^0=1,1^1=0; 1异或任何数=任何数取反
 *3）任何数异或自身=将自己置零
+ * 4)异或运算是可交换的,例如:A^B=B^A;
 *
+ *
  */
 public class XOR {
 	public static void main(String[] args) 
