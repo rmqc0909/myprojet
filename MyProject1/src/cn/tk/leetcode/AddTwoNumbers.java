@@ -43,11 +43,11 @@ public class AddTwoNumbers {
 		ListNode sumListI = addTwoNumbersI(l1, l2);
 		ListNode sumListII = addTwoNumbersII(l1, l2);
 		while(sumListI != null) {
-			System.out.println("sumListI元素值： " + sumListI.val);
+			System.out.println("sumListI value : " + sumListI.val);
 			sumListI = sumListI.next;
 		}
 		while(sumListII != null) {
-			System.out.println("sumListII元素值： " + sumListII.val);
+			System.out.println("sumListII value : " + sumListII.val);
 			sumListII = sumListII.next;
 		}
 	}

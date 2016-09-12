@@ -51,7 +51,7 @@ public class XOR {
 	 */
 	public void testEncry()
 	{
-		char  a1='十' ,  a2='点' ,  a3='进' ,  a4='攻' ; 
+		char  a1=' ' ,  a2=' ' ,  a3=' ' ,  a4=' ' ;
 		char secret='9' ; 
 		a1=(char) (a1^secret); 
 		a2=(char) (a2^secret); 
