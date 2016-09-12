@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="917b7cd0-49e3-4109-a21e-fcb33ca1811f" name="Default" comment="modify">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProject1/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/addtwonumbers/AddTwoNumbers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/addtwonumbers/ListNode.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/AddTwoNumbers.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/ListNode.java" afterPath="" />
+    <list default="true" id="917b7cd0-49e3-4109-a21e-fcb33ca1811f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/SingleNumber.java" afterPath="$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/SingleNumber.java" />
     </list>
     <ignored path="myprojet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/addtwonumbers/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -110,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingleNumber.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SingleNumber.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/SingleNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state relative-caret-position="2528">
+              <caret line="107" column="26" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
               <folding>
                 <element signature="e#1007#1025#0" expanded="true" />
               </folding>
@@ -166,11 +162,11 @@
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/leetcodetest/AddTwoNumbersTest.groovy" />
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/LongestSubstringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/study/RemoveElement.java" />
-        <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/SingleNumber.java" />
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/study/xor/XOR.java" />
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/addtwonumbers/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/addtwonumbers/ListNode.java" />
+        <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/SingleNumber.java" />
       </list>
     </option>
   </component>
@@ -832,7 +828,7 @@
       <workItem from="1471268759416" duration="24301000" />
       <workItem from="1472740738976" duration="3700000" />
       <workItem from="1473465516228" duration="2557000" />
-      <workItem from="1473650998342" duration="2870000" />
+      <workItem from="1473650998342" duration="3979000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1473652717900</created>
@@ -841,15 +837,22 @@
       <option name="project" value="LOCAL" />
       <updated>1473652717900</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="modify">
+      <created>1473657808218</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1473657808218</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39092000" />
+    <option name="totallyTimeSpent" value="40201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -859,7 +862,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32838982" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32838982" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32627118" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1237,16 +1240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/SingleNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding>
-            <element signature="e#1007#1025#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/ZigZagConversion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -1303,6 +1296,16 @@
         <state relative-caret-position="225">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/SingleNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2528">
+          <caret line="107" column="26" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
+          <folding>
+            <element signature="e#1007#1025#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

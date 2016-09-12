@@ -64,14 +64,15 @@ public class SingleNumber {
     }
 
     /**
-     * Given an array of numbers nums, in which exactly two elements appear only once and all the other elements appear exactly twice. Find the two elements that appear only once.
+     * Given an array of numbers nums, in which exactly two elements appear only once and all the other elements appear exactly twice.
+     * Find the two elements that appear only once.
 
-     For example:
+     For example: Given nums = [1, 2, 1, 3, 2, 5], return [3, 5].
 
      * @param nums
      * @return
      */
-    public int[] singleNumberIII(int[] nums) {
+    public int[] singleNumberIIIOne(int[] nums) {
         if(nums == null || nums.length == 0) return null;
         HashMap<Integer, Integer> hashMap = getIntegerIntegerHashMap(nums);
         int[] ret = new int[2];
@@ -85,4 +86,32 @@ public class SingleNumber {
         return ret;
     }
 
+    /**
+     * Idea:
+     * 1.get the rightmost 1 bit(two different numbers)
+     *
+     * 2.divide all numbers into two groups.one with the aforementioned bit set, another with the aforementinoed bit unset.
+     * Two different numbers we need to find must fall into thte two distrinct groups.
+     * XOR numbers in each group, we can find a number in either group.
+     * @param nums
+     * @return
+     */
+    public int[] singleNumberIIITwo(int[] nums) {
+        if(nums == null || nums.length == 0) return null;
+        int diff = 0;
+        for(int x : nums) {
+            diff ^= x;
+        }
+        diff &= -diff;          //step 1
+        int[] ret = {0, 0};     //step 2
+        for(int x : nums) {
+            if((x & diff) == 0) {
+                ret[0] ^= x;
+            }
+            else {
+                ret[1] ^= x;
+            }
+        }
+        return ret;
+    }
 }
