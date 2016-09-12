@@ -36,7 +36,6 @@ public class RemoveElement {
 	}
 	public static void main(String[] args) 
 	{
-<<<<<<< HEAD
 		byte a[] = {1, 2, 4, 3, 2, 4, 7, 2};
 		System.out.println((byte)(-1) >>> 1);
 		System.out.println(Integer.signum(-1));
@@ -45,10 +44,8 @@ public class RemoveElement {
 		System.out.println(b);
 		//RemoveElement removeElement = new RemoveElement();
 		//removeElement.screenBlackNameList();
-=======
 		RemoveElement removeElement = new RemoveElement();
 		removeElement.screenBlackNameList();
->>>>>>> origin/master
 	}
 	
 	private void screenBlackNameList()
