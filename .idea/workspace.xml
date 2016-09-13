@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="917b7cd0-49e3-4109-a21e-fcb33ca1811f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProject1/src/cn/tk/accesscontrol/ConnectionManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProject1/src/cn/tk/accesscontrol/ConnectionManager.java" afterPath="$PROJECT_DIR$/MyProject1/src/cn/tk/accesscontrol/ConnectionManager.java" />
     </list>
     <ignored path="myprojet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,16 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MoveZeroes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/MoveZeroes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="37" column="109" selection-start-line="37" selection-start-column="109" selection-end-line="37" selection-end-column="109" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="XOR.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/xor/XOR.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,9 +108,12 @@
       <file leaf-file-name="ConnectionManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/accesscontrol/ConnectionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="525">
+              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+              <folding>
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -285,6 +278,10 @@
               <option name="myItemId" value="accesscontrol" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConnectionManager.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -313,7 +310,7 @@
       <recent name="groovy.util.GroovyTestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ContainsDuplicate">
+  <component name="RunManager" selected="Application.ConnectionManager">
     <configuration default="false" name="ZigZagConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -322,26 +319,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="cn.tk.leetcode.ZigZagConversion" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MyProject1" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="RemoveElement (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.tk.study.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.tk.study.RemoveElement" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -402,6 +379,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="cn.tk.leetcode.ContainsDuplicate" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MyProject1" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConnectionManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.tk.accesscontrol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cn.tk.accesscontrol.ConnectionManager" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -817,18 +814,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.ZigZagConversion" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RemoveElement (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.XOR" />
-      <item index="3" class="java.lang.String" itemvalue="Application.AddTwoNumbers" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ContainsDuplicate" />
+      <item index="1" class="java.lang.String" itemvalue="Application.XOR" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AddTwoNumbers" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ContainsDuplicate" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ConnectionManager" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ContainsDuplicate" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AddTwoNumbers" />
-        <item index="2" class="java.lang.String" itemvalue="Application.XOR" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ZigZagConversion" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RemoveElement (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ConnectionManager" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ContainsDuplicate" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AddTwoNumbers" />
+        <item index="3" class="java.lang.String" itemvalue="Application.XOR" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ZigZagConversion" />
       </list>
     </recent_temporary>
   </component>
@@ -849,7 +846,7 @@
       <workItem from="1471268759416" duration="24301000" />
       <workItem from="1472740738976" duration="3700000" />
       <workItem from="1473465516228" duration="2557000" />
-      <workItem from="1473650998342" duration="8482000" />
+      <workItem from="1473650998342" duration="11536000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1473652717900</created>
@@ -879,11 +876,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473670478791</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="modify">
+      <created>1473674405733</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1473674405733</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44704000" />
+    <option name="totallyTimeSpent" value="47758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -897,7 +901,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32838982" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32838982" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32627118" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -942,14 +946,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/leetcode/ZigZagConversion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1329,11 +1325,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/accesscontrol/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/accesscontrol/ConnectionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="525">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding>
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
