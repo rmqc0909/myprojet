@@ -19,10 +19,9 @@ public class ReverseInteger {
     public static int reverse(int x) {
         int result = 0;
         while (x != 0) {
-            int tail = x % 10 ;
-            int newResult = result * 10 + tail;
+            int newResult = result * 10 + x % 10;
             //Whether there is overflow,If overflow exists, the new result will not equal previous one.
-            if ((newResult - tail) / 10 != result) {
+            if ((newResult - x % 10) / 10 != result) {
                 return 0;
             }
             result = newResult;
