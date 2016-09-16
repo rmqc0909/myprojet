@@ -22,6 +22,7 @@ public class TopKFrequentElements {
     public static List<Integer> topKFrequent(int[] nums, int k) {
         HashMap<Integer, Integer> frenquencyMap = getFrenquencyHashMap(nums);
         List<Integer>[] bucket = new List[nums.length + 1];         //防止数组越界
+        //getFrenquencyHashMapII(nums);
         for (int key : frenquencyMap.keySet()
                 ) {
             int frenquency = frenquencyMap.get(key);
@@ -45,7 +46,21 @@ public class TopKFrequentElements {
     }
 
     /**
-     * 将数组中元素出现频率记到HashMap中,key:数组元素值   value:元素出现次数
+     * 方法II:
+     * 将数组中元素出现频率记到HashMap中
+     * key:数组元素值   value:元素出现次数
+     * @param nums
+     */
+    private static void getFrenquencyHashMapII(int[] nums) {
+        Map<Integer, Integer> frequencyMap = new HashMap<Integer, Integer>();
+        for (int n : nums) {
+            frequencyMap.put(n, frequencyMap.getOrDefault(n, 0) + 1);
+        }
+    }
+
+    /**
+     * 将数组中元素出现频率记到HashMap中
+     * key:数组元素值   value:元素出现次数
      * @param nums
      * @return
      */
