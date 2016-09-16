@@ -33,15 +33,15 @@ public class TopKFrequentElements {
      */
     public static List<Integer> topKFrequent(int[] nums, int k) {
         List<Integer>[] bucket = new List[nums.length + 1];         //防止数组越界
-        Map<Integer, Integer> frenquencyMap = getFrenquencyHashMapI(nums);
-        //frenquencyMap = getFrenquencyHashMapII(nums);
-        for (int key : frenquencyMap.keySet()
+        Map<Integer, Integer> frequencyMap = getFrequencyHashMapI(nums);
+        //frequencyMap = getFrequencyHashMapII(nums);
+        for (int key : frequencyMap.keySet()
                 ) {
-            int frenquency = frenquencyMap.get(key);
-            if (bucket[frenquency] == null) {
-                bucket[frenquency] = new ArrayList<Integer>();
+            int frequency = frequencyMap.get(key);
+            if (bucket[frequency] == null) {
+                bucket[frequency] = new ArrayList<Integer>();
             }
-            bucket[frenquency].add(key);
+            bucket[frequency].add(key);
         }
         List<Integer> retList = new ArrayList<Integer>();
         for (List<Integer> list : bucket
@@ -63,7 +63,7 @@ public class TopKFrequentElements {
      * key:数组元素值   value:元素出现次数
      * @param nums
      */
-    private static Map<Integer, Integer> getFrenquencyHashMapI(int[] nums) {
+    private static Map<Integer, Integer> getFrequencyHashMapI(int[] nums) {
         Map<Integer, Integer> frequencyMap = new HashMap<Integer, Integer>();
         for (int n : nums) {
             frequencyMap.put(n, frequencyMap.getOrDefault(n, 0) + 1);
@@ -77,7 +77,7 @@ public class TopKFrequentElements {
      * @param nums
      * @return
      */
-    private static Map<Integer, Integer> getFrenquencyHashMapII(int[] nums) {
+    private static Map<Integer, Integer> getFrequencyHashMapII(int[] nums) {
         Arrays.sort(nums);
         Map<Integer, Integer> frenquencyMap = new HashMap<Integer, Integer>();
         int tmpCount = 1;
