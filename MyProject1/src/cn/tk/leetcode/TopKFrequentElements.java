@@ -4,13 +4,16 @@ import java.util.*;
 
 /**
  * Created by xiedan on 16/9/15.
+ *
  */
 public class TopKFrequentElements {
     public static void main(String args[]) {
-        int nums[] = {};
-        List<Integer> retList = topKFrequent(nums, 1);
-        System.out.println(retList.toArray());
-
+        int nums[] = {1,1,1,2,2,3,3,4};
+        List<Integer> retList = topKFrequent(nums, 2);
+        for (Integer x : retList
+             ) {
+            System.out.println("返回list表中元素值: " + x);
+        }
     }
 
     /**
@@ -20,9 +23,9 @@ public class TopKFrequentElements {
      * @return
      */
     public static List<Integer> topKFrequent(int[] nums, int k) {
-        HashMap<Integer, Integer> frenquencyMap = getFrenquencyHashMap(nums);
         List<Integer>[] bucket = new List[nums.length + 1];         //防止数组越界
-        //getFrenquencyHashMapII(nums);
+        Map<Integer, Integer> frenquencyMap = getFrenquencyHashMapI(nums);
+        //frenquencyMap = getFrenquencyHashMapII(nums);
         for (int key : frenquencyMap.keySet()
                 ) {
             int frenquency = frenquencyMap.get(key);
@@ -42,7 +45,7 @@ public class TopKFrequentElements {
                 retList.addAll(bucket[i]);
             }
         }
-        return retList;
+        return retList.subList(0, k);
     }
 
     /**
@@ -51,11 +54,12 @@ public class TopKFrequentElements {
      * key:数组元素值   value:元素出现次数
      * @param nums
      */
-    private static void getFrenquencyHashMapII(int[] nums) {
+    private static Map<Integer, Integer> getFrenquencyHashMapI(int[] nums) {
         Map<Integer, Integer> frequencyMap = new HashMap<Integer, Integer>();
         for (int n : nums) {
             frequencyMap.put(n, frequencyMap.getOrDefault(n, 0) + 1);
         }
+        return frequencyMap;
     }
 
     /**
@@ -64,9 +68,9 @@ public class TopKFrequentElements {
      * @param nums
      * @return
      */
-    private static HashMap<Integer, Integer> getFrenquencyHashMap(int[] nums) {
+    private static Map<Integer, Integer> getFrenquencyHashMapII(int[] nums) {
         Arrays.sort(nums);
-        HashMap<Integer, Integer> frenquencyMap = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> frenquencyMap = new HashMap<Integer, Integer>();
         int tmpCount = 1;
         for (int i = 0; i < nums.length; i++) {
             if(frenquencyMap.containsKey(nums[i])) {
