@@ -21,7 +21,7 @@ public class TopKFrequentElements {
         List<Integer> retList = topKFrequent(nums, 2);
         for (Integer x : retList
              ) {
-            System.out.println("返回list表中元素值: " + x);
+            System.out.println("the returned element value: " + x);
         }
     }
 
@@ -66,7 +66,7 @@ public class TopKFrequentElements {
     private static Map<Integer, Integer> getFrequencyHashMapI(int[] nums) {
         Map<Integer, Integer> frequencyMap = new HashMap<Integer, Integer>();
         for (int n : nums) {
-            frequencyMap.put(n, frequencyMap.getOrDefault(n, 0) + 1);
+            frequencyMap.put (n, frequencyMap.getOrDefault (n, 0) + 1);
         }
         return frequencyMap;
     }
