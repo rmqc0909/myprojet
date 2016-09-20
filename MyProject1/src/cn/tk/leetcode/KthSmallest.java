@@ -46,7 +46,8 @@ public class KthSmallest {
     // is used by randomPartition()
     int partition(int arr[], int l, int r)
     {
-        /*int x = arr[r], j = l;
+        /*  methodI
+        int x = arr[r], j = l;
         while (j <= r - 1) {
             if (arr[j] <= x) {
                 j++;
@@ -54,7 +55,10 @@ public class KthSmallest {
             break;
         }
         swap(arr, j, r);
-        return j;*/
+        return j;
+        */
+
+        //methodII
         int x = arr[r], i = l;
         for (int j = l; j <= r - 1; j++)
         {
