@@ -3,7 +3,7 @@ package cn.tk.leetcode;
 /**
  * Created by xiedan on 16/9/21.
  */
-public class KthSmallst {
+public class KthSmallest {
     // This function returns k'th smallest element in arr[l..r]
     // using QuickSort based method.  ASSUMPTION: ALL ELEMENTS
     // IN ARR[] ARE DISTINCT
@@ -82,7 +82,7 @@ public class KthSmallst {
     // Driver method to test above
     public static void main(String args[])
     {
-        KthSmallst ob = new KthSmallst();
+        KthSmallest ob = new KthSmallest();
         int arr[] = {12, 3, 5, 7, 4, 19, 26};
         int n = arr.length,k = 3;
         System.out.println("K'th smallest element is "+
