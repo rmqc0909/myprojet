@@ -50,7 +50,8 @@ public class KthSmallest {
     int partition(int arr[], int l, int r)
     {
         int x = arr[r], i = l;
-        for (int j = l; j <= r - 1; j++)
+        //保证i之前的元素均小于数组最右边的元素
+        for (int j = l; j < r; j++)
         {
             if (arr[j] <= x)
             {
@@ -70,7 +71,6 @@ public class KthSmallest {
         Random rand = new Random();
         int n = r-l+1;
         int pivot = rand.nextInt(n);        //return a Integer between [0, n);
-        System.out.println("pivot: " + pivot);
         swap(arr, l + pivot, r);
         return partition(arr, l, r);
     }
