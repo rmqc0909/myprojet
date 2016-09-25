@@ -42,7 +42,7 @@ public class DutchNationalFlagProblem {
         int array[] = {1, 1, 2, 2, 3, 3, 1, 2, 4};
         array = solution(array, 3);
         for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
+            System.out.print(array[i] + "  ");
         }
 
     }

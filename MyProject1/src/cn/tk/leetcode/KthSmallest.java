@@ -1,12 +1,15 @@
 package cn.tk.leetcode;
 
+
+import java.util.Random;
+
 /**
  * Created by xiedan on 16/9/21.
  */
 public class KthSmallest {
-    // This function returns k'th smallest element in arr[l..r]
-    // using QuickSort based method.  ASSUMPTION: ALL ELEMENTS
-    // IN ARR[] ARE DISTINCT
+    /* This function returns k'th smallest element in arr[l..r]
+     using QuickSort based method.  ASSUMPTION: ALL ELEMENTS
+     IN ARR[] ARE DISTINCT*/
     int kthSmallest(int arr[], int l, int r, int k)
     {
         // If k is smaller than number of elements in array
@@ -40,10 +43,10 @@ public class KthSmallest {
         arr[j] = temp;
     }
 
-    // Standard partition process of QuickSort().  It considers
-    // the last element as pivot and moves all smaller element
-    // to left of it and greater elements to right. This function
-    // is used by randomPartition()
+    /* Standard partition process of QuickSort().  It considers
+     the last element as pivot and moves all smaller element
+     to left of it and greater elements to right. This function
+     is used by randomPartition()*/
     int partition(int arr[], int l, int r)
     {
         /*  methodI
@@ -72,13 +75,15 @@ public class KthSmallest {
         return i;
     }
 
-    // Picks a random pivot element between l and r and
-    // partitions arr[l..r] arount the randomly picked
-    // element using partition()
+    /* Picks a random pivot element between l and r and
+     partitions arr[l..r] arount the randomly picked
+     element using partition()*/
     int randomPartition(int arr[], int l, int r)
     {
+        Random rand = new Random();
         int n = r-l+1;
-        int pivot = (int)(Math.random()) % n;
+        int pivot = rand.nextInt(n);        //return a Integer between [0, n);
+        System.out.println("pivot: " + pivot);
         swap(arr, l + pivot, r);
         return partition(arr, l, r);
     }
@@ -87,7 +92,7 @@ public class KthSmallest {
     public static void main(String args[])
     {
         KthSmallest ob = new KthSmallest();
-        int arr[] = {12, 3, 5, 7, 4, 19, 26, 26, 3, 5};
+        int arr[] = {12, 3, 5, 7, 4, 19, 26, 29, 3, 5, 36};
         int n = arr.length,k = n / 2;
         System.out.println("K'th smallest element is "+
                 ob.kthSmallest(arr, 0, n-1, k));
