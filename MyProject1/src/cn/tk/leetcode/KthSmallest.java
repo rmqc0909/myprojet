@@ -49,7 +49,6 @@ public class KthSmallest {
      is used by randomPartition()*/
     int partition(int arr[], int l, int r)
     {
-        //methodII
         int x = arr[r], i = l;
         for (int j = l; j <= r - 1; j++)
         {
