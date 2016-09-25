@@ -49,18 +49,6 @@ public class KthSmallest {
      is used by randomPartition()*/
     int partition(int arr[], int l, int r)
     {
-        /*  methodI
-        int x = arr[r], j = l;
-        while (j <= r - 1) {
-            if (arr[j] <= x) {
-                j++;
-            }
-            break;
-        }
-        swap(arr, j, r);
-        return j;
-        */
-
         //methodII
         int x = arr[r], i = l;
         for (int j = l; j <= r - 1; j++)
@@ -92,7 +80,7 @@ public class KthSmallest {
     public static void main(String args[])
     {
         KthSmallest ob = new KthSmallest();
-        int arr[] = {12, 3, 5, 7, 4, 19, 26, 29, 3, 5, 36};
+        int arr[] = {12, 3, 5, 7, 4, 19, 26, 29, 3, 5, 36, 42};
         int n = arr.length,k = n / 2;
         System.out.println("K'th smallest element is "+
                 ob.kthSmallest(arr, 0, n-1, k));
