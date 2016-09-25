@@ -92,7 +92,7 @@ public class KthSmallest {
         System.out.println("K'th smallest element is "+
                 ob.kthSmallest(arr, 0, n-1, k));
         for (int i = 0; i < n; i++) {
-            System.out.print(arr[i]);
+            System.out.print(arr[i] + " ");
         }
     }
 }
