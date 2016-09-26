@@ -5,13 +5,13 @@ package cn.tk.study.classloader;
 
 /**
 
- * @ClassName: Test
+ * @ClassName: TestA
 
  * @Description: TODO
 
  * @author xiedan11
 
- * @date 2016Äê6ÔÂ1ÈÕ ÏÂÎç5:45:23
+ * @date 2016ï¿½ï¿½6ï¿½ï¿½1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½5:45:23
 
  *
 
@@ -21,7 +21,7 @@ public class Test {
 	 static
 	    {
 	        i=2;
-	        //System.out.println(i);//Õâ¾ä±àÒëÆ÷»á±¨´í£ºCannot reference a field before it is defined£¨·Ç·¨ÏòÇ°Ó¦ÓÃ£©
+	        //System.out.println(i);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½á±¨ï¿½ï¿½Cannot reference a field before it is definedï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½Ç°Ó¦ï¿½Ã£ï¿½
 	    }
 	    static int i;
 	    public static void main(String args[])
@@ -29,8 +29,8 @@ public class Test {
 	        StaticTest st1 = new StaticTest();
 	        StaticTest st2 = new StaticTest();
 	    	System.out.println("st1:" + st1.i + ",st2:" + st2.i);
-	    	System.out.println("st1¾²Ì¬µÄ hashCode():" + st1.i.hashCode() + ",st2¾²Ì¬µÄ hashCode():" + st2.i.hashCode());
-	    	System.out.println("st1µÄ hashCode():" + st1.j.hashCode() + ",st2µÄ hashCode():" + st2.j.hashCode());
+	    	System.out.println("st1ï¿½ï¿½Ì¬ï¿½ï¿½ hashCode():" + st1.i.hashCode() + ",st2ï¿½ï¿½Ì¬ï¿½ï¿½ hashCode():" + st2.i.hashCode());
+	    	System.out.println("st1ï¿½ï¿½ hashCode():" + st1.j.hashCode() + ",st2ï¿½ï¿½ hashCode():" + st2.j.hashCode());
 	    	
 	    }
 	    

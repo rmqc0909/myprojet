@@ -23,7 +23,7 @@ class Soap {
                 '}';
     }
 }
-public class Bath {
+public class InitializeWays {
     private String
             s1 = "Happy",   //Initializing at point of definition
             s2 = "Happy",
@@ -32,8 +32,8 @@ public class Bath {
     private int i;
     private float toy;
 
-    public Bath() {
-        System.out.println("Inside Bath()");
+    public InitializeWays() {
+        System.out.println("Inside InitializeWays()");
         s3 = "Joy";
         toy = 3.14f;
         soap = new Soap();
@@ -48,7 +48,7 @@ public class Bath {
         //Delayed initialization
         if (s4 == null)
             s4 = "Joy";
-        return "Bath{" +
+        return "InitializeWays{" +
                 "s1='" + s1 + '\'' +
                 ", s2='" + s2 + '\'' +
                 ", s3='" + s3 + '\'' +
@@ -59,7 +59,7 @@ public class Bath {
                 '}';
     }
     public static void main(String args[]) {
-        Bath b = new Bath();
+        InitializeWays b = new InitializeWays ();
         System.out.println(b);
     }
 }
