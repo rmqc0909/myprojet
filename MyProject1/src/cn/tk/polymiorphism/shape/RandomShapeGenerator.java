@@ -1,4 +1,4 @@
-package cn.tk.polymiorphism;
+package cn.tk.polymiorphism.shape;
 
 import java.util.Random;
 

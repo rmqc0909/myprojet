@@ -1,4 +1,4 @@
-package cn.tk.polymiorphism;
+package cn.tk.polymiorphism.shape;
 
 /**
  * Created by xiedan11 on 2016/9/26.
