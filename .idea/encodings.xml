@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
     <file url="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/classloader/ClassLoader.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/classloader/DealLoopTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/classloader/SSClass.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/classloader/SubClass.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/classloader/SuperClass.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/classloader/Test.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/strategy1/Quack.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/xor/XOR.java" charset="UTF-8" />
-    <file url="PROJECT" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>

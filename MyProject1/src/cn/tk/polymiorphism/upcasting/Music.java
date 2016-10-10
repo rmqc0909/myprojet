@@ -6,7 +6,7 @@ package cn.tk.polymiorphism.upcasting;
  */
 
 class Instrument {
-    void play(Music.Note n) {
+    void play(Note n) {
         System.out.println ("Instrument.play() " + n);
     }
 
@@ -21,7 +21,7 @@ class Instrument {
 
 class Wind extends Instrument {
     @Override
-    void play(Music.Note n) {
+    void play(Note n) {
         System.out.println ("Wind.play() " + n);
     }
 
@@ -38,7 +38,7 @@ class Wind extends Instrument {
 
 class Percussion extends Instrument {
     @Override
-    void play(Music.Note n) {
+    void play(Note n) {
         System.out.println ("Percussion.play()" + n);
     }
 
@@ -55,7 +55,7 @@ class Percussion extends Instrument {
 
 class Stringed extends Instrument {
     @Override
-    void play(Music.Note n) {
+    void play(Note n) {
         System.out.println ("Stringed.play()" + n);
     }
 
@@ -72,7 +72,7 @@ class Stringed extends Instrument {
 
 class Violin extends Instrument {
     @Override
-    void play(Music.Note n) {
+    void play(Note n) {
         System.out.println ("Violin.play()" + n);
     }
 
@@ -89,7 +89,7 @@ class Violin extends Instrument {
 
 class Brass extends Wind {
     @Override
-    void play(Music.Note n) {
+    void play(Note n) {
         System.out.println ("Brass.play()" + n);
     }
 
@@ -101,7 +101,7 @@ class Brass extends Wind {
 
 class Woodwind extends Wind {
     @Override
-    void play(Music.Note n) {
+    void play(Note n) {
         System.out.println ("Woodwind.play()" + n);
     }
 
@@ -112,9 +112,6 @@ class Woodwind extends Wind {
 }
 
 public class Music {
-    public enum Note {
-        MIDDLE_C, C_SHARP, B_FLAT
-    }
     public static void tune(Instrument i) {
         i.play (Note.MIDDLE_C);
     }
