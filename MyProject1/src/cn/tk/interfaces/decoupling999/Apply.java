@@ -1,9 +1,10 @@
-package cn.tk.interfaces.decoupling;
+package cn.tk.interfaces.decoupling999;
 
 import java.util.Arrays;
 
 /**
  * Created by xiedan11 on 2016/10/10.
+ * 利用接口完全解耦，这里不太明白。P174（Thinking in java）
  */
 class Processor {
     public String name() {
