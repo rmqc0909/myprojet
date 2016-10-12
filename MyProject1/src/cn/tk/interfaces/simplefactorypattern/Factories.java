@@ -1,8 +1,8 @@
-package cn.tk.interfaces.factorypattern;
+package cn.tk.interfaces.simplefactorypattern;
 
 /**
  * Created by xiedan11 on 2016/10/12.
- * 工厂模式
+ * 简单工厂模式
  */
 interface Service {
     void method1();

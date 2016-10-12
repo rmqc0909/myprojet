@@ -1,7 +1,8 @@
-package cn.tk.interfaces.factorypattern;
+package cn.tk.interfaces.simplefactorypattern;
 
 /**
  * Created by xiedan11 on 2016/10/12.
+ * 简单工厂模式
  */
 interface Game {
     boolean move();
