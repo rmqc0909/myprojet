@@ -28,157 +28,120 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Music5.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/interfaces/Music5.java">
+      <file leaf-file-name="StaticInitialization.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/initandloading/StaticInitialization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-56">
-              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="-474">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <folding>
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InheritAndInitialize.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/InheritAndInitialize.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Apply.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/interfaces/decoupling999/Apply.java">
+      <file leaf-file-name="InitializeWays.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/InitializeWays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+            <state relative-caret-position="200">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Derived.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/Derived.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding>
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Adventure.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/interfaces/multipleinherit/Adventure.java">
+      <file leaf-file-name="Constructors.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/Constructors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+            <state relative-caret-position="501">
+              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#790#791#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-                <element signature="e#944#945#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#1005#1006#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1077#1078#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HorrorShow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/interfaces/multipleinherit/HorrorShow.java">
+      <file leaf-file-name="ArraysOfPrimitives.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/initandloading/ArraysOfPrimitives.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Flower.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/initandloading/Flower.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewVarArgs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/initandloading/NewVarArgs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaperMoney.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/initandloading/PaperMoney.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-324">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrimitiveOverloading.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/initandloading/PrimitiveOverloading.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1064#1065#0" expanded="true" />
-                <element signature="e#1106#1107#0" expanded="true" />
-                <element signature="e#1167#1168#0" expanded="true" />
-                <element signature="e#1232#1233#0" expanded="true" />
-                <element signature="e#1265#1266#0" expanded="true" />
-                <element signature="e#1434#1435#0" expanded="true" />
-                <element signature="e#1464#1465#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomWords.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/interfaces/scanner/RandomWords.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Factories.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/interfaces/simplefactorypattern/Factories.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-              <folding>
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#786#787#0" expanded="true" />
-                <element signature="e#848#849#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1105#1106#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Games.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/interfaces/simplefactorypattern/Games.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-              <folding>
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/interfaces/simplefactorypattern/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-              <folding>
-                <marker date="1476257767796" expanded="true" signature="700:725" ph="select count... test" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DriverManager.java" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/work_space_webdev/platform/JDK8/jdk1.8.0_60/src.zip!/java/sql/DriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="631" column="30" selection-start-line="631" selection-start-column="30" selection-end-line="631" selection-end-column="30" />
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -217,12 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/TestA.java" />
-        <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/accesscontrol/Test.java" />
-        <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/Orc.java" />
-        <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/FinalData.java" />
-        <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/BlankFinal.java" />
-        <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/FinalOverridingIllusion.java" />
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/RandomShapeGenerator.java" />
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/Shape.java" />
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/Circle.java" />
@@ -237,7 +194,6 @@
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/shape/Square.java" />
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/shape/Triangle.java" />
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/upcasting/StaticPolymorphism.java" />
-        <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/InheritAndInitialize.java" />
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/constructor/Sandwich.java" />
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/study/classloader/SSClass.java" />
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/study/classloader/StaticTest.java" />
@@ -268,6 +224,13 @@
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/interfaces/factorypattern/Games.java" />
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/interfaces/simplefactorypattern/Games.java" />
         <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/interfaces/simplefactorypattern/Application.java" />
+        <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/innerclass/Sequence.java" />
+        <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/innerclass/Outer.java" />
+        <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/study/initandloading/ExplicitStatic.java" />
+        <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/study/initandloading/Constructor.java" />
+        <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/InheritAndInitialize.java" />
+        <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/Derived.java" />
+        <option value="$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/Constructors.java" />
       </list>
     </option>
   </component>
@@ -285,9 +248,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="53" />
-    <option name="width" value="1844" />
-    <option name="height" value="1026" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -351,26 +315,8 @@
               <option name="myItemId" value="tk" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myprojet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyProject1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interfaces" />
+              <option name="myItemId" value="study" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,13 +337,53 @@
               <option name="myItemId" value="tk" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="interfaces" />
+              <option name="myItemId" value="myprojet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProject1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simplefactorypattern" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reuseclazz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myprojet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProject1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reuseclazz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Constructors.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -426,15 +412,15 @@
       <recent name="groovy.util.GroovyTestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Games">
-    <configuration default="false" name="Adventure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Constructors">
+    <configuration default="false" name="StaticInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cn.tk.interfaces.multipleinherit.*" />
+          <option name="PATTERN" value="cn.tk.study.initandloading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.tk.interfaces.multipleinherit.Adventure" />
+      <option name="MAIN_CLASS_NAME" value="cn.tk.study.initandloading.StaticInitialization" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -447,14 +433,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="HorrorShow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ShowProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cn.tk.interfaces.multipleinherit.*" />
+          <option name="PATTERN" value="cn.tk.study.system.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.tk.interfaces.multipleinherit.HorrorShow" />
+      <option name="MAIN_CLASS_NAME" value="cn.tk.study.system.ShowProperties" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -467,14 +453,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="RandomWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="InheritAndInitialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cn.tk.interfaces.scanner.*" />
+          <option name="PATTERN" value="cn.tk.reuseclazz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.tk.interfaces.scanner.RandomWords" />
+      <option name="MAIN_CLASS_NAME" value="cn.tk.reuseclazz.InheritAndInitialize" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -487,14 +473,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Factories" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Derived" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cn.tk.interfaces.simplefactorypattern.*" />
+          <option name="PATTERN" value="cn.tk.reuseclazz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.tk.interfaces.simplefactorypattern.Factories" />
+      <option name="MAIN_CLASS_NAME" value="cn.tk.reuseclazz.Derived" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -507,14 +493,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Games" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Constructors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cn.tk.interfaces.simplefactorypattern.*" />
+          <option name="PATTERN" value="cn.tk.reuseclazz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.tk.interfaces.simplefactorypattern.Games" />
+      <option name="MAIN_CLASS_NAME" value="cn.tk.reuseclazz.Constructors" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -942,19 +928,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Adventure" />
-      <item index="1" class="java.lang.String" itemvalue="Application.HorrorShow" />
-      <item index="2" class="java.lang.String" itemvalue="Application.RandomWords" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Factories" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Games" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StaticInitialization" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ShowProperties" />
+      <item index="2" class="java.lang.String" itemvalue="Application.InheritAndInitialize" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Derived" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Constructors" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Games" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Factories" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RandomWords" />
-        <item index="3" class="java.lang.String" itemvalue="Application.HorrorShow" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Adventure" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Constructors" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Derived" />
+        <item index="2" class="java.lang.String" itemvalue="Application.InheritAndInitialize" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ShowProperties" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StaticInitialization" />
       </list>
     </recent_temporary>
   </component>
@@ -979,7 +965,7 @@
       <workItem from="1473897967048" duration="14279000" />
       <workItem from="1474165812572" duration="3933000" />
       <workItem from="1474175257886" duration="60116000" />
-      <workItem from="1476063832599" duration="40121000" />
+      <workItem from="1476063832599" duration="53647000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1473652717900</created>
@@ -1111,11 +1097,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176199000" />
+    <option name="totallyTimeSpent" value="189725000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="0" width="1844" height="1026" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1125,17 +1111,17 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.50641024" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3235955" sideWeight="0.4957265" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3258427" sideWeight="0.4957265" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31304348" sideWeight="0.4957265" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3258427" sideWeight="0.4957265" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26292136" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42391303" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42359552" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1170,97 +1156,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/Hide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/Circle.java" />
-    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/Shape.java" />
-    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/Square.java" />
-    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/Triangle.java" />
-    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/Shapes.java" />
-    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/RandomShapeGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/CADSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="e#141#142#0" expanded="false" />
-            <element signature="e#199#200#0" expanded="false" />
-            <element signature="e#227#228#0" expanded="false" />
-            <element signature="e#280#281#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/upcasting/FieldAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/shape/Shapes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/shape/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/shape/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/shape/RandomShapeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/upcasting/StaticPolymorphism.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="e#205#206#0" expanded="false" />
-            <element signature="e#246#247#0" expanded="false" />
-            <element signature="e#279#280#0" expanded="false" />
-            <element signature="e#321#322#0" expanded="false" />
-            <element signature="e#400#401#0" expanded="false" />
-            <element signature="e#444#445#0" expanded="false" />
-            <element signature="e#491#492#0" expanded="false" />
-            <element signature="e#536#537#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/InheritAndInitialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/polymiorphism/constructor/Sandwich.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1379,10 +1274,10 @@
         <state relative-caret-position="150">
           <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
           <folding>
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="false" />
+            <element signature="e#391#392#0" expanded="false" />
+            <element signature="e#421#422#0" expanded="false" />
+            <element signature="e#468#469#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1485,12 +1380,12 @@
         <state relative-caret-position="800">
           <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           <folding>
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="false" />
+            <element signature="e#437#438#0" expanded="false" />
+            <element signature="e#523#524#0" expanded="false" />
+            <element signature="e#577#578#0" expanded="false" />
+            <element signature="e#663#664#0" expanded="false" />
+            <element signature="e#732#733#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1508,23 +1403,23 @@
         <state relative-caret-position="259">
           <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
           <folding>
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+            <element signature="e#490#491#0" expanded="false" />
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="e#580#581#0" expanded="false" />
+            <element signature="e#631#632#0" expanded="false" />
+            <element signature="e#672#673#0" expanded="false" />
+            <element signature="e#724#725#0" expanded="false" />
+            <element signature="e#790#791#0" expanded="false" />
+            <element signature="e#816#817#0" expanded="false" />
+            <element signature="e#855#856#0" expanded="false" />
+            <element signature="e#881#882#0" expanded="false" />
+            <element signature="e#944#945#0" expanded="false" />
+            <element signature="e#981#982#0" expanded="false" />
+            <element signature="e#1005#1006#0" expanded="false" />
+            <element signature="e#1051#1052#0" expanded="false" />
+            <element signature="e#1077#1078#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1534,22 +1429,22 @@
         <state relative-caret-position="100">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1265#1266#0" expanded="true" />
-            <element signature="e#1434#1435#0" expanded="true" />
-            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="false" />
+            <element signature="e#486#487#0" expanded="false" />
+            <element signature="e#528#529#0" expanded="false" />
+            <element signature="e#587#588#0" expanded="false" />
+            <element signature="e#792#793#0" expanded="false" />
+            <element signature="e#858#859#0" expanded="false" />
+            <element signature="e#901#902#0" expanded="false" />
+            <element signature="e#964#965#0" expanded="false" />
+            <element signature="e#1004#1005#0" expanded="false" />
+            <element signature="e#1064#1065#0" expanded="false" />
+            <element signature="e#1106#1107#0" expanded="false" />
+            <element signature="e#1167#1168#0" expanded="false" />
+            <element signature="e#1232#1233#0" expanded="false" />
+            <element signature="e#1265#1266#0" expanded="false" />
+            <element signature="e#1434#1435#0" expanded="false" />
+            <element signature="e#1464#1465#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1586,9 +1481,9 @@
         <state relative-caret-position="0">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#629#630#0" expanded="false" />
+            <element signature="e#663#664#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1598,18 +1493,18 @@
         <state relative-caret-position="100">
           <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding>
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="false" />
+            <element signature="e#404#405#0" expanded="false" />
+            <element signature="e#447#448#0" expanded="false" />
+            <element signature="e#509#510#0" expanded="false" />
+            <element signature="e#616#617#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#786#787#0" expanded="false" />
+            <element signature="e#848#849#0" expanded="false" />
+            <element signature="e#891#892#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#1060#1061#0" expanded="false" />
+            <element signature="e#1105#1106#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1619,10 +1514,10 @@
         <state relative-caret-position="100">
           <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding>
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="false" />
+            <element signature="e#552#553#0" expanded="false" />
+            <element signature="e#872#873#0" expanded="false" />
+            <element signature="e#907#908#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1641,6 +1536,157 @@
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
             <marker date="1476257767796" expanded="true" signature="700:725" ph="select count... test" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/innerclass/Outer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <element signature="e#154#155#0" expanded="false" />
+            <element signature="e#190#191#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/innerclass/Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="e#377#378#0" expanded="false" />
+            <element signature="e#417#418#0" expanded="false" />
+            <element signature="e#672#673#0" expanded="false" />
+            <element signature="e#720#721#0" expanded="false" />
+            <element signature="e#773#774#0" expanded="false" />
+            <element signature="e#812#813#0" expanded="false" />
+            <element signature="e#964#965#0" expanded="false" />
+            <element signature="e#1010#1011#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/initandloading/ExplicitStatic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-449">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/initandloading/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-674">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/initandloading/ArraysOfPrimitives.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/initandloading/Flower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/initandloading/NewVarArgs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/initandloading/PaperMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/initandloading/PrimitiveOverloading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/system/ShowProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/study/initandloading/StaticInitialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-474">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/InitializeWays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/InheritAndInitialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/Derived.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProject1/src/cn/tk/reuseclazz/Constructors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
           </folding>
         </state>
       </provider>
