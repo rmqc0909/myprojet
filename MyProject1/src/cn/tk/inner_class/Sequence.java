@@ -1,4 +1,4 @@
-package cn.tk.innerclass;
+package cn.tk.inner_class;
 
 /**
  * Created by xiedan11 on 2016/10/13.

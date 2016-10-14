@@ -1,4 +1,4 @@
-package cn.tk.reuseclazz;
+package cn.tk.reuse_clazz;
 
 import java.util.Arrays;
 import java.util.Random;

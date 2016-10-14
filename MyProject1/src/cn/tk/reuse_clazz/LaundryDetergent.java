@@ -1,4 +1,4 @@
-package cn.tk.reuseclazz;
+package cn.tk.reuse_clazz;
 
 /**Think in Java Chapter vii - 2th   Page 129
  * Created by xiedan11 on 2016/9/14.

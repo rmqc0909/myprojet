@@ -1,4 +1,4 @@
-package cn.tk.reuseclazz;
+package cn.tk.reuse_clazz;
 
 /**
  * Created by xiedan11 on 2016/9/20.

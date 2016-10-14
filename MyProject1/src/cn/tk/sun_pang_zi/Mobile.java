@@ -1,4 +1,4 @@
-package cn.tk.sunpangzi;
+package cn.tk.sun_pang_zi;
 
 /**
  * Created by xiedan on 16/10/14.

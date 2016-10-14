@@ -1,4 +1,4 @@
-package cn.tk.reuseclazz;
+package cn.tk.reuse_clazz;
 
 /**
  * 构造类是从基类“向外”扩散的，基类在导出类构造器访问它之前，就已经完成了初始化。
