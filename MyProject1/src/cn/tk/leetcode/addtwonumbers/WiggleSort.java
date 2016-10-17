@@ -27,7 +27,6 @@ public class WiggleSort {
             }
             else if (nums[(1+2*(j)) % (nums.length|1)] < mid) {
 //                swap (nums, nums[(1+2*(j)) % (nums.length|1)], nums[(1+2*(k)) % (nums.length|1)]);
-                swap (nums, f);
                 k--;
             }
             else {
