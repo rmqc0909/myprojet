@@ -78,11 +78,11 @@ public class KthSmallest {
     // Driver method to test above
     public static void main(String args[])
     {
-        KthSmallest ob = new KthSmallest();
-        int arr[] = {12, 3, 5, 7, 4, 19, 26, 29, 3, 5, 36, 42};
+        KthSmallest kthSmallest = new KthSmallest();
+        int arr[] = {1, 5, 1, 1, 6, 4, 3};
         int n = arr.length,k = n / 2;
         System.out.println("K'th smallest element is "+
-                ob.kthSmallest(arr, 0, n-1, k));
+                kthSmallest.kthSmallest(arr, 0, n-1, k + 1));
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
