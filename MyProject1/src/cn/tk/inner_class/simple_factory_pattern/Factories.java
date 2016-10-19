@@ -1,8 +1,8 @@
-package cn.tk.interfaces.simplefactorypattern;
+package cn.tk.inner_class.simple_factory_pattern;
 
 /**
- * Created by xiedan11 on 2016/10/12.
- * 简单工厂模式
+ * Created by xiedan11 on 2016/10/19.
+ * 1.利用匿名内部类实现工厂模式
  */
 interface Service {
     void method1();
@@ -12,7 +12,7 @@ interface ServiceFactory {
     Service getService();
 }
 class Implementation1 implements Service {
-    public Implementation1() {
+    private Implementation1() {
     }
 
     @Override
@@ -24,15 +24,15 @@ class Implementation1 implements Service {
     public void method2() {
         System.out.println ("Implementation1 method2");
     }
-}
-class Implementation1Factory implements ServiceFactory {
-    @Override
-    public Service getService() {
-        return new Implementation1 ();
-    }
+    public static ServiceFactory serviceFactory = new ServiceFactory () {
+        @Override
+        public Service getService() {
+            return new Implementation1 ();
+        }
+    };
 }
 class Implementation2 implements Service {
-    public Implementation2() {
+    private Implementation2() {
     }
 
     @Override
@@ -44,12 +44,13 @@ class Implementation2 implements Service {
     public void method2() {
         System.out.println ("Implementation2 method2");
     }
-}
-class Implementation2Factory implements ServiceFactory {
-    @Override
-    public Service getService() {
-        return new Implementation2 ();
-    }
+
+    public static ServiceFactory serviceFactory = new ServiceFactory () {
+        @Override
+        public Service getService() {
+            return new Implementation2 ();
+        }
+    };
 }
 public class Factories {
     public static void serviceConsumer(ServiceFactory serviceFactory) {
@@ -58,7 +59,7 @@ public class Factories {
         service.method2 ();
     }
     public static void main(String[] args) {
-        serviceConsumer (new Implementation1Factory ());
-        serviceConsumer (new Implementation2Factory ());
+        serviceConsumer (Implementation1.serviceFactory);
+        serviceConsumer (Implementation2.serviceFactory);
     }
 }

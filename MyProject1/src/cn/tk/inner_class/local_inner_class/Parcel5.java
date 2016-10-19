@@ -6,6 +6,8 @@ import cn.tk.inner_class.member_inner_class.Destination;
  * Created by xiedan11 on 2016/10/14.
  * 1.局部内部类：定义在方法里面的类。
  * 2.PDestination类是destination()方法的一部分，而不是Parcel5的一部分。在destination()之外不能访问PDestination。
+ * 3.局部类不能用public或private访问说明符进行声明。它的作用域被限定在声明这个局部类的块中。
+ * 4.局部类的方法只可以引用定义为final的局部变量。
  */
 public class Parcel5 {
     public Destination destination(String s){

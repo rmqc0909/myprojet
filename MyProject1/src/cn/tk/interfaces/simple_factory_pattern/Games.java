@@ -1,4 +1,4 @@
-package cn.tk.interfaces.simplefactorypattern;
+package cn.tk.interfaces.simple_factory_pattern;
 
 /**
  * Created by xiedan11 on 2016/10/12.

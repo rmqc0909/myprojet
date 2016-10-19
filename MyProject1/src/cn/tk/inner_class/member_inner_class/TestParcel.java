@@ -8,6 +8,7 @@ package cn.tk.inner_class.member_inner_class;
  * 2.PContents是private，所以除了Parcel4，其他都不可以访问PContents
  * PDestination是protected，只有Parcel4及其子类，还有与Parcel4同一个包中的类能访问PDestination,其他类都不能访问PDestination.
  * 3. 外部类可以访问其内部类的private元素。
+ * 4.只有内部类可以是私有类，而常规类只可以具有包可见性，或公有可见性。
  *
  */
 class Parcel4 {

@@ -4,7 +4,7 @@ package cn.tk.leetcode;
  */
 public class WiggleSort {
     public static void main(String[] args) {
-        int[] nums = {1, 5, 1, 1, 6, 4, 3};
+        int[] nums = {1, 3, 2, 2, 3, 1};
         int size = nums.length;
         int mid;
         KthSmallest kthSmallest = new KthSmallest();
@@ -25,6 +25,7 @@ public class WiggleSort {
         System.out.println ();
         System.out.println ("mid element: " + mid);
         //偶数位（对应原来数组的下标范围是[(length/2)--(length-1)]）：放小于中位数的元素    奇数位（对应原来数组的下标范围是[0--(length/2 - 1)]）：放大于中位数的元素
+        //getAnInt (nums, i)奇数槽的下标，getAnInt (nums, j)当前下标，getAnInt (nums, k)偶数槽的下标
         while (j <= k) {
             if (nums[getAnInt (nums, j)] > mid) {
                 kthSmallest.swap (nums, getAnInt (nums, j++), getAnInt (nums, i++));

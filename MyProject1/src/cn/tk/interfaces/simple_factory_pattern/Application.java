@@ -1,4 +1,4 @@
-package cn.tk.interfaces.simplefactorypattern;
+package cn.tk.interfaces.simple_factory_pattern;
 
 import java.sql.*;
 
