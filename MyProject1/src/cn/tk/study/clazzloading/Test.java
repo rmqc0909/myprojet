@@ -11,5 +11,7 @@ public class Test {
         System.out.println(classLoader1);
         ClassLoader classLoader2 = classLoader1.getParent();
         System.out.println(classLoader2);
+        ClassLoader classLoader3 = Integer.class.getClassLoader();
+        System.out.println("Integer:" + classLoader3);
     }
 }
