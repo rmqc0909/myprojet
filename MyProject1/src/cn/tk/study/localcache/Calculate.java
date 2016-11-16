@@ -7,6 +7,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * Created by xiedan11 on 2016/11/9.
  * java8和java7的本地缓存实现   重复操作需要加本地缓存以提高性能。
  */
+@SuppressWarnings("all")    //抑制所有的警告信息
 public class Calculate {
     static Map<Integer, Integer> cache1 = new ConcurrentHashMap<>();
     static Map<Integer, Integer> cache2 = new ConcurrentHashMap<>();
